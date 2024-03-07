@@ -152,12 +152,16 @@ a{
 .swiper-slide{
     width: 3600px;
 }
-
+.swiper-slide img{
+    display: block;
+}
 /*Main Content*/
 .tabli{
     border: 1px solid black;
+    border: bottom 0; 
     padding: 0 1rem;
-    background-color: rgba(53, 51, 51,0.7)
+    /* background-color: rgba(53, 51, 51,0.7) */
+    height: 100%;
 }
 
 .notice{
@@ -166,6 +170,7 @@ a{
 }
 .notice>li{
     padding: 10px 0 9px 0;
+    width: 380px;
 }
 .notice>li:not(:last-child){
     border-bottom: 1px solid black;
